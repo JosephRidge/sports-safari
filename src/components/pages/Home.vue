@@ -56,6 +56,15 @@
         </div>
       </div>
     </div>
+
+<!-- Insights -->
+    <div> 
+      <div>Insights</div>
+      
+      <ul style="list-style-type: disc" class="px-7">
+              <li> Overall Average Score through all seasons: <span class="text-[#1e3a8a]"> {{ averageScore }}</span> </li> 
+            </ul>
+    </div>
   </div>
 </template>
 
@@ -87,6 +96,7 @@ export default {
         { month: 10, Name: "Luke", Score: 99.75 },
         { month: 11, Name: "Luke", Score: 99.75 },
       ],
+      averageScore:72.04,
     };
   },
   methods: {
